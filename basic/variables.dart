@@ -1,4 +1,4 @@
-import 'dart:ffi';
+
 
 late String description;
 void main(){
@@ -15,12 +15,24 @@ void main(){
 
   String ? userName; // meaning userName can be null
   String firstName ;// cant be null
-  assert(userName ==null);
+  
 
   description=name;
   print(description);
  
 // int , String, Float, Double, double, var, final, const;
+
+var Student={
+  "name":"usman",
+  "age":12
+};
+print(Student["name"]);
+Student["color"]=1232;
+print(Student);
+
+int ?a;
+
+print("this is the value of $a");
 
 
 }
