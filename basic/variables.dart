@@ -13,8 +13,8 @@ void main(){
   };
   print("$name   $age  $height  $course ${teacher_courses} ");
 
-  String ? userName; // meaning userName can be null
-  String firstName ;// cant be null
+  // String ? userName; // meaning userName can be null
+  // String firstName ;// cant be null
   
 
   description=name;
